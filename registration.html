@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="stylesheetlogin.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  
+  <div class="regbox">
+    
+    <h1>Please fill in your details to <span>Register</span></h1>
+    <form action="successpage.html" target="_blank">
+
+        <!--Column for Firstname-->
+        <div>
+          <label for="firstname">First Name</label><br>
+          <input type="text" placeholder="Only your first name here " name="firstname" required/>
+        </div>
+  
+        <!--Column for Lastname-->
+        <div>
+            <label for="lastname">Last Name</label><br>
+            <input type="text" placeholder="Only your Last name here " name="lastname" required/>
+        </div>
+    
+      
+    <!-- COlumn for Phone Number-->
+        <div>
+            <label for="telephonenumber">Telephone Number</label><br>
+            <input type="tel" placeholder="please type phone number here "  required name="telephonenumber">
+        </div>
+
+        <!--Column for email-->
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="please type your email here " required name="email" >
+        </div>
+
+        <div>
+            <label for=""> Select your Gender</label> <br>
+            <select name="Gender" id="Gender">
+                <option value="male"> </option>
+                <option value="Female">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="DOB" name="dateofbirth">Date of Birth</label>
+            <input type="date" name="date" id="" placeholder="Whats your date of birth" required>
+        </div>
+
+        <div>
+            <label for="color">Click to choose your favorite Color</label>
+            <input type="color" name="favoritecolor" id="">
+        </div>
+
+        <div>
+            <input type="submit"  value="submit">
+        </div>
+  
+        <div>
+         <a href="login.html"><small>Already Registered</small></a>
+        </div>
+   </form>
+  </div>
+</body>
+</html>

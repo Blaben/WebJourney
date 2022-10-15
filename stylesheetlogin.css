@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(ladyhorizontal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  span{
+    color:#ff8800;
+  }
+  body{
+    background-color:darkblue;
+    font:sans-serif;
+  }
+  
+  h1{
+    color:darkblue;
+  }
+  
+  /*all these are Login details*/
+  .loginbox{
+      width: 320px;
+      height: 420px;
+      background-color: white;
+      position:absolute;
+      margin:50px;
+      box-sizing:border-box;
+      padding:40px 30px;
+  }
+  
+  .loginbox label{
+    color:darkblue;
+    font-family:sans-serif;
+    font-weight:400;
+    font-size: 20px;
+  }
+  
+  
+  .loginbox input{
+    width:100%;
+    margin-bottom:20px;
+  }
+  
+  .loginbox a{
+    text-decoration:none;
+    color: #ff8800;
+    text-align:center;
+  }
+  
+  .loginbox input[type="email"], input[type="password"] {
+    border:none;
+    border-bottom:2px solid;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: darkblue;
+
+  }
+
+  .loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color:#ff8800;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+
+  /*all these are registration details
+  =======================================
+  =======================================*/
+  .regbox{
+    width: 480px;
+    height: 820px;
+    background-color: white;
+    position:absolute;
+    margin:50px;
+    box-sizing:border-box;
+    padding:40px 30px;
+    margin-left: 60%;
+}
+
+.regbox label{
+  color:darkblue;
+  font-family:sans-serif;
+  font-weight:400;
+  font-size: 20px;
+}
+
+
+.regbox input{
+  width:100%;
+  margin-bottom:20px;
+}
+
+.regbox a{
+  text-decoration:none;
+  color: #ff8800;
+  text-align:center;
+}
+
+.regbox input[type="email"], input[type="password"], input[type="text"], input[type="tel"], input[type="date"] {
+  border:none;
+  border-bottom:2px solid;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: darkblue;
+
+}
+
+.regbox select{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: darkblue;
+    border: 2px solid #ff8800;
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+.regbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color:#ff8800;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:pointer;
+}
